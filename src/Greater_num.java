@@ -1,7 +1,7 @@
 // GREATER BETWEEN THREE NUMBERS
 
 import java.util.Scanner;
-public class Third {
+public class Greater_num {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number:");

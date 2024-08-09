@@ -1,7 +1,7 @@
 // ADDITION OF BINARY NUMBER
 
 import java.util.Scanner;
-public class Sixth {
+public class Binary_add {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first binary number:");

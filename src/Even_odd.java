@@ -1,7 +1,7 @@
 // CHECKING EVEN OR ODD
 
 import java.util.Scanner;
-public class Fourth {
+public class Even_odd {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("Enter the first number:");

@@ -1,7 +1,7 @@
 // ARITHMETIC OPERATION OF TWO NUMBERS
 
 import java.util.Scanner;
-public class Second {
+public class Arithmetic {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number:");

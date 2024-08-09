@@ -1,16 +1,16 @@
 // ADDITION OF COMPLEX NUMBER
 
 import java.util.Scanner;
-public class Seventh {
+public class Complex_sum {
     double real;
     double imaginary;
 
-    public Seventh(double real,double imaginary) {
+    public Complex_sum(double real, double imaginary) {
         this.real = real;
         this.imaginary = imaginary;
     }
-    public Seventh add(Seventh other) {
-        return new Seventh(this.real + other.real, this.imaginary + other.imaginary);
+    public Complex_sum add(Complex_sum other) {
+        return new Complex_sum(this.real + other.real, this.imaginary + other.imaginary);
     }
     public String toString() {
         return this.real + " + " + this.imaginary + "i";
@@ -26,10 +26,10 @@ public class Seventh {
         double real2= input.nextDouble();
         System.out.println("Enter the imaginary part of the second complex number:");
         double imaginary2= input.nextDouble();
-        Seventh c1 = new Seventh(real1,imaginary1);
-        Seventh c2 = new Seventh(real2,imaginary2);
+        Complex_sum c1 = new Complex_sum(real1,imaginary1);
+        Complex_sum c2 = new Complex_sum(real2,imaginary2);
 
-        Seventh sum=c1.add(c2);
+        Complex_sum sum=c1.add(c2);
         System.out.println("Sum:" + sum);
         input.close();
 

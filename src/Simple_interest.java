@@ -1,7 +1,7 @@
 //To calculate the simple interest
 
 import java.util.Scanner;
-public class Eighth
+public class Simple_interest
 {
     public static void main(String[] args)
     {
